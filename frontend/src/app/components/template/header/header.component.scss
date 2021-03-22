@@ -16,13 +16,23 @@
     }
 
     #modo-noturno {
-        margin-left: 18pc;
+        margin-left: 17pc;
     }
 }
 
-.menu {
-    li {
+.menu li {
         margin-right: 40px;
-    }
 }
 
+.menu li a {
+    color: #51aa8c;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu li.active,
+.menu li:hover {
+  & > a {
+    color: #212529;
+  }
+}
