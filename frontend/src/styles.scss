@@ -12,9 +12,33 @@ body {
 
 body,
 * {
-  font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .right {
     float: right;
+}
+
+.page-header {
+    background-image: linear-gradient(to bottom, #4ca587, #ffffff);
+    height: 300px;
+}
+
+.title-header {
+    align-self: baseline;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.subtitle-header {
+    color: #ffff;
+    margin-top: -10px;
+    font-size: 2rem;
+}
+
+.intro-header {
+    margin-top: -7pc;
+    margin-left: 5pc;
 }
