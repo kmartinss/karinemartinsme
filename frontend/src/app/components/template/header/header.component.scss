@@ -1,9 +1,28 @@
 .header {
     display: flex;
     height: 100px;
+    background-color: #ffffff;
+    font-weight: 500;
 
     #logo {
         width: 200px;
         height: 200px;
     }
+
+    #menu {
+        list-style: none;
+        display: inline-flex;
+        margin-top: 20px;
+    }
+
+    #modo-noturno {
+        margin-left: 18pc;
+    }
 }
+
+.menu {
+    li {
+        margin-right: 40px;
+    }
+}
+
