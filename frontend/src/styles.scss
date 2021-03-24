@@ -39,6 +39,11 @@ body,
 }
 
 .intro-header {
-    margin-top: -7pc;
-    margin-left: 5pc;
+    padding: 0px 0px 90px 60px;
+}
+
+p {
+    mat-icon {
+        vertical-align: -6px;
+    }
 }
