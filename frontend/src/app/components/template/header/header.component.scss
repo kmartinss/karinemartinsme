@@ -1,13 +1,15 @@
 .header {
     display: flex;
     height: 100px;
-    background-color: #ffffff;
+    background-color:#ffffff;
     font-weight: 500;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
 
     #logo {
-        width: 200px;
-        height: 200px;
+      width: 200px;
+      height: 150px;
+      margin-top: 10px;
+      margin-left: 5px;
     }
 
     #menu {
@@ -22,7 +24,7 @@
 }
 
 .menu li a {
-    color: #51aa8c;
+    color: #de3132;
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -30,6 +32,6 @@
 .menu li.active,
 .menu li:hover {
   & > a {
-    color: #212529;
+    color: black;
   }
 }
