@@ -1,7 +1,7 @@
 .header {
     display: flex;
     height: 100px;
-    background-color:#ffffff;
+    background-color: var(--bg-header-color);
     font-weight: 500;
     margin-bottom: 1px;
 
@@ -24,7 +24,7 @@
 }
 
 .menu li a {
-    color: #de3132;
+    color: var(--main-color);
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -32,6 +32,6 @@
 .menu li.active,
 .menu li:hover {
   & > a {
-    color: black;
+    color: var(--menu-btn-hover);
   }
 }
