@@ -12,6 +12,7 @@ import { PortfolioComponent } from "./views/portfolio/portfolio.component";
 import { ContactComponent } from "./views/contact/contact.component";
 import { MatCardModule } from "@angular/material/card";
 import { MatIconModule } from "@angular/material/icon";
+import { MatButtonModule } from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { MatIconModule } from "@angular/material/icon";
     MatToolbarModule,
     MatCardModule,
     MatIconModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

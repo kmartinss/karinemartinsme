@@ -1,37 +1,37 @@
 .header {
-    display: flex;
-    height: 100px;
-    background-color: var(--bg-header-color);
-    font-weight: 500;
-    margin-bottom: 1px;
+  display: flex;
+  height: 100px;
+  background-color: var(--bg-header-color);
+  font-weight: 500;
+  margin-bottom: 1px;
 
-    #logo {
-      width: 200px;
-      height: 150px;
-      margin-top: 10px;
-      margin-left: 5px;
-    }
+  #logo {
+    width: 130px;
+    height: 90px;
+    margin-top: 18px;
+    margin-left: 50px;
+  }
 
-    #menu {
-        list-style: none;
-        display: inline-flex;
-        margin-top: 20px;
-    }
+  #menu {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 20px;
+  }
 }
 
 .menu li {
-        margin-right: 40px;
+  margin-right: 40px;
 }
 
 .menu li a {
-    color: var(--main-color);
-    text-decoration: none;
-    font-size: 1.5rem;
+  color: var(--main-color);
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .menu li.active,
 .menu li:hover {
-  & > a {
+  &>a {
     color: var(--menu-btn-hover);
   }
 }
