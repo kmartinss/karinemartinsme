@@ -13,6 +13,8 @@ import { ContactComponent } from "./views/contact/contact.component";
 import { MatCardModule } from "@angular/material/card";
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
+import { FeedbackFormComponent } from './views/feedback-form/feedback-form.component';
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import { MatButtonModule } from "@angular/material/button";
     HomeComponent,
     PortfolioComponent,
     ContactComponent,
+    FeedbackFormComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,8 @@ import { MatButtonModule } from "@angular/material/button";
     MatCardModule,
     MatIconModule,
     MatButtonModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
