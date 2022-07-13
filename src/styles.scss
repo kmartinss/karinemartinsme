@@ -4,6 +4,12 @@
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(12, 12, 12) 35%,
+    rgb(32, 32, 32) 100%
+  );
 }
 
 body,

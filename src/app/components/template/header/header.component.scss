@@ -4,7 +4,7 @@ $menuHeight: 100px;
 #toolbar-nav {
   background-color: var(--bg-header-color);
   height: $menuHeight;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 10px rgba(158, 158, 158, 0.12);
 
   ul {
     margin: 0;
@@ -46,8 +46,11 @@ $menuHeight: 100px;
           display: block;
           position: absolute;
           top: #{$menuHeight + 2};
-          background: #fff;
+          background-color: var(--bg-header-color);
           width: 100%;
+          text-align: center;
+
+     
 
           .menu-item {
             border-bottom: 1px solid #cccccc;
