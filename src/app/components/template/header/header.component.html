@@ -1,4 +1,25 @@
-<mat-toolbar class="header col-sm-12">
+<nav id="toolbar-nav">
+  <ul>
+    <li class="logotype">
+        <a routerLink="/">
+            <img src="assets/img/logo.svg" alt="logo" id="logo">
+        </a>
+    </li>
+
+    <li class="burger" (click)="toggleMenu()">
+      <mat-icon>{{ isMenuOpen ? "close" : "menu" }}</mat-icon>
+    </li>
+
+    <li class="menu" [class.is-open]="isMenuOpen">
+      <a class="menu-item" routerLink="/">Home</a>
+      <a class="menu-item" routerLink="sobre">Sobre mim</a>
+      <a class="menu-item" routerLink="meu-portfolio">Portfólio</a>
+      <a class="menu-item" href="#">Skills</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- <mat-toolbar class="header col-sm-12">
     <span class="col-md-4">
         <a routerLink="/">
             <img src="assets/img/logo.svg" alt="logo" id="logo">
@@ -37,4 +58,4 @@
 
     <span class="col-md-4" id="modo-noturno">
     </span>
-</mat-toolbar>
+</mat-toolbar> -->

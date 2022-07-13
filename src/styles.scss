@@ -1,62 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-html,
-body {
-    height: 100%;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body,
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
-.page-header {
-    background-image: var(--page-header);
-    height: 300px;
-}
+// .wrapper {
+// //   position: relative;
+//   background-color: var(--bg-body-color);
+// }
 
-.title-header {
-    align-self: baseline;
-    font-weight: 600;
-    color: #ffffff69;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
+// .page-header {
+//     background-image: var(--page-header);
+//     height: 300px;
+// }
 
-.subtitle-header {
-    color: #ffffff69;
-    margin-top: -10px;
-    font-size: 2rem;
-}
+// .title-header {
+//     align-self: baseline;
+//     font-weight: 600;
+//     color: #ffffff69;
+//     text-transform: uppercase;
+//     font-size: 1.2rem;
+// }
 
-.intro-header {
-    padding: 0px 0px 90px 60px;
-}
+// .subtitle-header {
+//     color: #ffffff69;
+//     margin-top: -10px;
+//     font-size: 2rem;
+// }
+
+// .intro-header {
+//     // padding: 0px 0px 90px 60px;
+// }
 
 p {
-    mat-icon {
-        vertical-align: -6px;
-    }
+  mat-icon {
+    vertical-align: -6px;
+  }
 }
 
 .wrapper {
-    background-color: var(--bg-body-color);
+  background-color: var(--bg-body-color);
 }
 
 .mat-card {
-    background-color: var(--bg-card);
-    color: var(--text-color);
+  background-color: var(--bg-card);
+  color: var(--text-color);
 }
-
 
 // TITULOS DE HEADER: BRANCO
 // CONTEUDO: PRETO
