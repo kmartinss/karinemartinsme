@@ -53,6 +53,7 @@ img {
   animation-iteration-count: infinite;
   margin-top: 30px;
 
+
   @media (max-width: $menuBreakPoint) {
     max-width: 300px;
   }
@@ -63,6 +64,7 @@ img {
   padding: 50px;
   margin-left: 20%;
   margin-top: 10%;
+
 
   @media (max-width: $menuBreakPoint) {
     margin-left: 0;
@@ -76,6 +78,8 @@ h1 {
   animation-duration: 3s;
   font-size: 4rem;
 }
+
+h2 {}
 
 .cargo {
   color: #ffffff;
