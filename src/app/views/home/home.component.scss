@@ -42,11 +42,20 @@ a {
   text-decoration: none;
 }
 
+.image {
+  margin-top: 30px;
+  text-align: center;
+}
+
 img {
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   margin-top: 30px;
+
+  @media (max-width: $menuBreakPoint) {
+    max-width: 300px;
+  }
 }
 
 .intro {
@@ -57,6 +66,7 @@ img {
 
   @media (max-width: $menuBreakPoint) {
     margin-left: 0;
+    margin-top: -20px;
     text-align: center;
   }
 }
