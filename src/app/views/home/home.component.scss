@@ -10,6 +10,8 @@ $menuBreakPoint: 956px;
   100% {
     margin-top: 0px;
   }
+
+  
 }
 
 @keyframes fadeOut {
@@ -43,16 +45,20 @@ a {
 }
 
 .image {
-  margin-top: 30px;
+  position: inherit;
   text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;  
+
+  @media (max-width: $menuBreakPoint) {
+    margin-top: 30px;
+    animation-name: none;
+  }
 }
 
 img {
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
   margin-top: 30px;
-
 
   @media (max-width: $menuBreakPoint) {
     max-width: 300px;
@@ -65,7 +71,6 @@ img {
   margin-left: 20%;
   margin-top: 10%;
 
-
   @media (max-width: $menuBreakPoint) {
     margin-left: 0;
     margin-top: -20px;
@@ -75,16 +80,20 @@ img {
 
 h1 {
   animation-name: fadeOut;
-  animation-duration: 3s;
+  animation-duration: 1s;
   font-size: 4rem;
+  overflow-y: hidden;
 }
 
-h2 {}
+h2 {
+  overflow-y: hidden;
+}
 
 .cargo {
   color: #ffffff;
   animation-duration: 3s;
   animation-name: fadeOut;
+  overflow-y: hidden;
 }
 
 .row {

@@ -9,6 +9,7 @@ import { ThemeService } from "src/app/services/themes";
 export class HeaderComponent implements OnInit {
   public activeThemeIsDark: boolean = localStorage.getItem("theme") == "dark";
   public isMenuOpen: boolean = false;
+  public isMenuClosed: boolean = false;
 
   constructor(private _theme: ThemeService) {}
 
