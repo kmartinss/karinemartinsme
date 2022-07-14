@@ -54,32 +54,9 @@ body,
 
 .wrapper {
     margin-top: 60px;
-    animation-name: fadeOut;
-    animation-duration: 3s;
+    // animation-name: fadeOut;
+    // animation-duration: 3s;
 }
-
-// .page-header {
-//     background-image: var(--page-header);
-//     height: 300px;
-// }
-
-// .title-header {
-//     align-self: baseline;
-//     font-weight: 600;
-//     color: #ffffff69;
-//     text-transform: uppercase;
-//     font-size: 1.2rem;
-// }
-
-// .subtitle-header {
-//     color: #ffffff69;
-//     margin-top: -10px;
-//     font-size: 2rem;
-// }
-
-// .intro-header {
-//     // padding: 0px 0px 90px 60px;
-// }
 
 p {
   mat-icon {
@@ -91,6 +68,3 @@ p {
   background-color: var(--bg-card);
   color: var(--text-color);
 }
-
-// TITULOS DE HEADER: BRANCO
-// CONTEUDO: PRETO

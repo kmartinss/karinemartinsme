@@ -46,14 +46,15 @@ $menuHeight: 100px;
           display: block;
           position: absolute;
           top: #{$menuHeight + 2};
-          background-color: var(--bg-header-color);
+          background-color: #000000;
           width: 100%;
           text-align: center;
 
-     
-
           .menu-item {
-            border-bottom: 1px solid #cccccc;
+            margin-top: 10px;
+           margin-bottom: 20px;
+           margin-left: 80px;
+           border-radius: 10px;
           }
         }
       }
