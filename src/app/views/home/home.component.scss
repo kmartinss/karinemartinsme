@@ -1,0 +1,81 @@
+$menuBreakPoint: 956px;
+
+@keyframes slidein {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 3%;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+
+  &:hover {
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(1.1);
+  }
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+img {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  margin-top: 30px;
+}
+
+.intro {
+  color: var(--main-color);
+  padding: 50px;
+  margin-left: 20%;
+  margin-top: 10%;
+
+  @media (max-width: $menuBreakPoint) {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+h1 {
+  animation-name: fadeOut;
+  animation-duration: 3s;
+  font-size: 4rem;
+}
+
+.cargo {
+  color: #ffffff;
+  animation-duration: 3s;
+  animation-name: fadeOut;
+}
+
+.row {
+  margin-top: 5%;
+  @media (max-width: $menuBreakPoint) {
+    margin-top: 0;
+  }
+}

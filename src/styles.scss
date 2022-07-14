@@ -1,5 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+$menuBreakPoint: 956px;
+
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 
 body {
   margin: 0;
@@ -21,10 +32,35 @@ body,
   float: right;
 }
 
-// .wrapper {
-// //   position: relative;
-//   background-color: var(--bg-body-color);
-// }
+@media only screen and (max-width: 700px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .show-on-mobile-only {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .hide-on-mobile {
+    display: inherit;
+  }
+
+  .show-on-mobile-only {
+    display: none;
+  }
+}
+
+.wrapper {
+    margin-top: 60px;
+    animation-name: fadeOut;
+    animation-duration: 3s;
+
+    @media (max-width: $menuBreakPoint) {
+     margin-top: 0;
+}
+}
 
 // .page-header {
 //     background-image: var(--page-header);
@@ -53,10 +89,6 @@ p {
   mat-icon {
     vertical-align: -6px;
   }
-}
-
-.wrapper {
-  background-color: var(--bg-body-color);
 }
 
 .mat-card {
