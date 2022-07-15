@@ -57,6 +57,12 @@ body,
     margin-top: 60px;
     animation-name: fadeOut;
     animation-duration: 1s;
+
+    color: #cccccc;
+
+    h1 {
+      overflow-y: hidden;
+    }
 }
 
 p {
@@ -68,4 +74,8 @@ p {
 .mat-card {
   background-color: var(--bg-card);
   color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
 }

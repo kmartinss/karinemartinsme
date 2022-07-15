@@ -38,7 +38,6 @@ $menuBreakPoint: 956px;
 .apresentation {
   max-width: 80%;
   margin-top: 30px;
-  color: #cccccc;
 
   @media (max-width: $menuBreakPoint) {
     text-align: center;
@@ -46,7 +45,6 @@ $menuBreakPoint: 956px;
   }
 
   h1 {
-    overflow-y: hidden;
     font-weight: 500;
     font-size: 2.8rem;
   }
