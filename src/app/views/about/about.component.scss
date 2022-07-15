@@ -1,77 +1,58 @@
-// .profile {
-//     #me-profile {
-//         height: 250px;
-//         width: 250px;
-//         border-radius: 100pc;
-//         padding: 10px;
-//         border: 1px solid var(--border-color);
-//     }
+$menuBreakPoint: 956px;
 
-//     #disponibility {
-//         color: green;
-//         font-weight: 500;
-//         text-align: center;
-//     }
-
-//     #disponibility-off {
-//         color: red;
-//         font-weight: 500;
-//         text-align: center;
-//     }
-
-//     .social-networks {
-//         margin-top: 20px;
-//         margin-left: 20px;
-//         margin-bottom: 30px;
-
-//         img {
-//             margin-right: 50px;
-//             width: 24px;
-//         }
-//     }
-// }
-
-// .biography {
-
-//     h2 {
-//         font-weight: 600;
-//     }
-
-//     p {
-//         margin-bottom: 60px;
-//         font-size: 1.1rem;
-//     }
-// }
+.image {
+  text-align: center;
+  margin-left: 120px;
 
 
-// .apresentation-section {
-//     margin-top: -10pc;
-//     padding: 30px 70px 70px 70px;
-// }
+  @media (max-width: $menuBreakPoint) {
+    margin-top: 0;
+    text-align: -webkit-center;
+  }
 
-// .profile-card {
-//     text-align: center;
-//     padding-top: 60px;
-//     padding-bottom: 60px;
-// }
+  .profile-card {
+    position: static;
+    text-align: center;
+    max-width: 300px;
+    background-color: transparent;
+    border: 1px solid #212529;
+    padding: 20px;
+    border-radius: 16px 0px 16px 0px;
+    margin-top: 20px;
 
-// .biography-card {
-//     padding: 50px;
-// }
+    @media (max-width: $menuBreakPoint) {
+        margin-top: 0;
+      }
+  }
 
-// #chat {
-//     color: #e9494a;
-//     font-size: 1.6em;
-//     margin-left: 350px;
-// }
+  @media (max-width: $menuBreakPoint) {
+    margin-left: 0;
+  }
+  img {
+    max-width: 600px;
+    height: 450px;
+    border: 1px solid var(--main-color);
+    border-radius: 16px 0px 16px 0px;
+  }
+}
 
-// .hire-btn {
-//     // background-color: var(--main-color);
-//     border: 1px solid var(--main-color);
-//     color: #ffffff;
-//     font-size: 1.1em;
-// }
+.apresentation {
+  max-width: 80%;
+  margin-top: 30px;
+  color: #cccccc;
 
-// #paragraph-1 {
-//     line-height: 30px;
-// }
+  @media (max-width: $menuBreakPoint) {
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  h1 {
+    overflow-y: hidden;
+    font-weight: 500;
+    font-size: 2.8rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
