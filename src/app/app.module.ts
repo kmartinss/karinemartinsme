@@ -13,7 +13,7 @@ import { MatCardModule } from "@angular/material/card";
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatSidenavModule } from "@angular/material/sidenav";
 import { SkillsComponent } from "./views/skills/skills.component";
 
 @NgModule({
@@ -23,7 +23,7 @@ import { SkillsComponent } from "./views/skills/skills.component";
     AboutComponent,
     HomeComponent,
     PortfolioComponent,
-    SkillsComponent
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +35,7 @@ import { SkillsComponent } from "./views/skills/skills.component";
     MatButtonModule,
     ReactiveFormsModule,
     FormsModule,
-    MatSidenavModule
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

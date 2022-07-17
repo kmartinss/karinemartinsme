@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 $menuBreakPoint: 956px;
 
-
 @keyframes fadeOut {
   from {
     opacity: 0;
@@ -54,15 +53,15 @@ body,
 }
 
 .wrapper {
-    margin-top: 60px;
-    animation-name: fadeOut;
-    animation-duration: 1s;
+  margin-top: 60px;
+  animation-name: fadeOut;
+  animation-duration: 1s;
 
-    color: #cccccc;
+  color: #cccccc;
 
-    h1 {
-      overflow-y: hidden;
-    }
+  h1 {
+    overflow-y: hidden;
+  }
 }
 
 p {
@@ -79,3 +78,4 @@ p {
 a {
   text-decoration: none;
 }
+
