@@ -9,13 +9,12 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { AboutComponent } from "./views/about/about.component";
 import { HomeComponent } from "./views/home/home.component";
 import { PortfolioComponent } from "./views/portfolio/portfolio.component";
-import { ContactComponent } from "./views/contact/contact.component";
 import { MatCardModule } from "@angular/material/card";
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
-import { FeedbackFormComponent } from './views/feedback-form/feedback-form.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { SkillsComponent } from "./views/skills/skills.component";
 
 @NgModule({
   declarations: [
@@ -24,8 +23,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     AboutComponent,
     HomeComponent,
     PortfolioComponent,
-    ContactComponent,
-    FeedbackFormComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
