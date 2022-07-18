@@ -15,6 +15,9 @@ import { MatButtonModule } from "@angular/material/button";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { SkillsComponent } from "./views/skills/skills.component";
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+
 
 @NgModule({
   declarations: [
@@ -36,6 +39,8 @@ import { SkillsComponent } from "./views/skills/skills.component";
     ReactiveFormsModule,
     FormsModule,
     MatSidenavModule,
+    MatCheckboxModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent],

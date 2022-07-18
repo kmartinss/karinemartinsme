@@ -74,3 +74,19 @@ a {
   text-decoration: none;
 }
 
+.mat-slide-toggle-bar,
+.mat-slide-toggle-thumb {
+  overflow-y: hidden;
+}
+
+.mat-slide-toggle-thumb-container {
+  overflow-y: hidden;
+}
+
+.mat-slide-toggle-content {
+  color: var(--text-color);
+}
+
+.mat-slide-toggle-thumb {
+  border-radius: 0% !important;
+}
