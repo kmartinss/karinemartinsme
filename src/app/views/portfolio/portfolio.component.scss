@@ -31,6 +31,7 @@ mat-card {
 
   @media (max-width: $menuBreakPoint) {
     overflow-y: hidden;
+    height: 480px;
   }
 
   mat-card-footer {
