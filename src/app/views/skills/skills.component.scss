@@ -28,19 +28,24 @@ hr {
     contrast(120%);
 }
 
-
-
+// .mat-card:not([class*=mat-elevation-z]) {
+//   box-shadow: 0px 2px 1px -1pxrgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+// }
 mat-card {
   text-align: center;
   margin-bottom: 70px;
   background: transparent;
+  box-shadow: none !important;
 
   &:hover {
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 0.5s;
     .image {
       transition: 0.5s;
       filter: none;
     }
   }
 }
-
-

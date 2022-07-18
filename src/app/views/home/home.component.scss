@@ -10,8 +10,6 @@ $menuBreakPoint: 956px;
   100% {
     margin-top: 0px;
   }
-
-  
 }
 
 @keyframes fadeOut {
@@ -34,7 +32,7 @@ button {
   padding: 10px;
   border-radius: 30px;
   font-size: 1.5rem;
-  background-color: #ffffff;
+  background-color: var(--negative-color);
 
   &:hover {
     -webkit-transform: scale(0.3);
@@ -54,7 +52,7 @@ a {
   text-align: center;
   animation-duration: 3s;
   animation-name: slidein;
-  animation-iteration-count: infinite;  
+  animation-iteration-count: infinite;
 
   @media (max-width: $menuBreakPoint) {
     margin-top: 30px;
@@ -95,7 +93,7 @@ h2 {
 }
 
 .cargo {
-  color: #ffffff;
+  color: var(--text-color);
   animation-duration: 3s;
   animation-name: fadeOut;
   overflow-y: hidden;

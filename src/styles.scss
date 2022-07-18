@@ -14,12 +14,7 @@ $menuBreakPoint: 956px;
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(
-    90deg,
-    rgb(0, 0, 0) 0%,
-    rgb(12, 12, 12) 35%,
-    rgb(32, 32, 32) 100%
-  );
+  background: var(--bg-body-color);
 }
 
 body,
@@ -57,7 +52,7 @@ body,
   animation-name: fadeOut;
   animation-duration: 1s;
 
-  color: #cccccc;
+  color: var(--text-color);
 
   h1 {
     overflow-y: hidden;
