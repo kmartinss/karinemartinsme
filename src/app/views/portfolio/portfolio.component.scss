@@ -2,6 +2,10 @@ $menuBreakPoint: 956px;
 
 .wrapper {
   padding: 0 80px;
+
+  @media (max-width: $menuBreakPoint) {
+    padding: 0 30px;
+  }
 }
 
 h1 {
@@ -19,7 +23,7 @@ mat-card {
 
   &:hover {
     img {
-        opacity: 1.0;
+      opacity: 1;
     }
     cursor: pointer;
     -webkit-transform: scale(0.3);
@@ -31,7 +35,6 @@ mat-card {
 
   @media (max-width: $menuBreakPoint) {
     overflow-y: hidden;
-    height: 480px;
   }
 
   mat-card-footer {
@@ -42,7 +45,6 @@ mat-card {
   img {
     max-width: 500px;
     opacity: 0.7;
-
   }
 }
 
@@ -78,11 +80,9 @@ button {
 }
 
 .btn {
-    width: 100%;
+  width: 100%;
   a {
     color: var(--main-color);
     text-decoration: none;
   }
 }
-
-
