@@ -1,4 +1,4 @@
-# Karinemartinsme - Portfólio
+# Karinemartinsme - Meu portfólio
 
 Essa aplicação foi desenvolvida com o objetivo de armazenar e exibir projetos realizados e os que irei realizar em breve. :)
 
