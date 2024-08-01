@@ -1507,13 +1507,6 @@
   "resolved" "https://registry.npmjs.org/alphanum-sort/-/alphanum-sort-1.0.2.tgz"
   "version" "1.0.2"
 
-"angular-responsive-carousel@^2.1.2":
-  "integrity" "sha512-nOCEyL9R80kW876GY8KvXoPu9fHu3nEnA2RVoFZ3hnBLx/OIdebeKFTxfogWLgbI4S1xn+vOecY/a+GnAQNc8w=="
-  "resolved" "https://registry.npmjs.org/angular-responsive-carousel/-/angular-responsive-carousel-2.1.2.tgz"
-  "version" "2.1.2"
-  dependencies:
-    "tslib" "^2.0.0"
-
 "ansi-colors@^3.0.0":
   "integrity" "sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA=="
   "resolved" "https://registry.npmjs.org/ansi-colors/-/ansi-colors-3.2.4.tgz"
@@ -5311,13 +5304,6 @@
   "resolved" "https://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz"
   "version" "1.0.0"
 
-"ngx-owl-carousel-o@^14.0.0":
-  "integrity" "sha512-WCVJvcq5wMxE2yqu3dhgoccAIBNYPNZRX9yrQYApDfXd9QOg+uDRSfv6Myi+Y5cCjTPDCM2G5Wo2DDpF3SEAHw=="
-  "resolved" "https://registry.npmjs.org/ngx-owl-carousel-o/-/ngx-owl-carousel-o-14.0.0.tgz"
-  "version" "14.0.0"
-  dependencies:
-    "tslib" "^2.3.0"
-
 "nice-try@^1.0.4":
   "integrity" "sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ=="
   "resolved" "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz"
@@ -7954,11 +7940,6 @@
   "integrity" "sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
   "version" "2.1.0"
-
-"tslib@^2.3.0":
-  "integrity" "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ=="
-  "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
-  "version" "2.4.0"
 
 "tty-browserify@0.0.0":
   "integrity" "sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY= sha512-JVa5ijo+j/sOoHGjw0sxw734b1LhBkQ3bvUGNdxnVXDCX81Yx7TFgnZygxrIIWn23hbfTaMYLwRmAxFyDuFmIw=="
