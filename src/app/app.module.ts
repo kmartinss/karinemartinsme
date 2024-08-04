@@ -9,14 +9,14 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { AboutComponent } from "./views/about/about.component";
 import { HomeComponent } from "./views/home/home.component";
 import { PortfolioComponent } from "./views/portfolio/portfolio.component";
-import { MatCardModule } from "@angular/material/card";
+import { MatLegacyCardModule as MatCardModule } from "@angular/material/legacy-card";
 import { MatIconModule } from "@angular/material/icon";
-import { MatButtonModule } from "@angular/material/button";
+import { MatLegacyButtonModule as MatButtonModule } from "@angular/material/legacy-button";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { SkillsComponent } from "./views/skills/skills.component";
-import {MatCheckboxModule} from '@angular/material/checkbox';
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatLegacyCheckboxModule as MatCheckboxModule} from '@angular/material/legacy-checkbox';
+import {MatLegacySlideToggleModule as MatSlideToggleModule} from '@angular/material/legacy-slide-toggle';
 
 
 @NgModule({
